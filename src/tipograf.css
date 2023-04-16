@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2? family=Dancing+Script:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 15px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Dancing Script", cursive;
+    font-weight: 500;
+}
