@@ -1,8 +1,10 @@
 .tw-followCard {
   display: flex;
   align-items: center;
-  color: hsl(0, 100%, 38%);
+  color: hsl(0, 81%, 85%);
   font-size: .8rem;
+  font: oblique bold 90% cursive;
+  justify-content: center;
 }
 
 .tw-followCard-header {
@@ -14,7 +16,6 @@
 .tw-followCard-info {
   display: flex;
   flex-direction: column;
-  font: oblique bold 120% cursive;
 }
 
 .tw-followCard-infoUserName {
@@ -27,8 +28,8 @@
   border-radius: 1000px;
 }
 
-.tw-followCar-button {
-  margin-left: 16px;
+.tw-followCard-button {
+  margin-left: 20px;
   border: 0;
   border-radius: 999px;
   padding: 6px 16px;
