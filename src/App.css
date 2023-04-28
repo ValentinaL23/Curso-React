@@ -40,7 +40,8 @@
 }
 
 .tw-followCard-button:hover {
-  opacity: .8; 
+  opacity: .8;
+  filter: drop-shadow(0 0 2em #fff);
 }
 
 .tw-followCard-text {
@@ -59,6 +60,7 @@
   color: red;
   border: 1px solid red;
   transition: .3s ease all;
+
 }
 
 .tw-followCard-button.is-following:hover .tw-followCard-text {
