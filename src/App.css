@@ -53,6 +53,7 @@
   background: transparent;
   color: #fff;
   width: 140px;
+  filter: drop-shadow(0 0 2em rgb(0, 255, 242));
 }
 
 .tw-followCard-button.is-following:hover {
@@ -60,7 +61,6 @@
   color: red;
   border: 1px solid red;
   transition: .3s ease all;
-
 }
 
 .tw-followCard-button.is-following:hover .tw-followCard-text {
@@ -69,8 +69,10 @@
 
 .tw-followCard-button.is-following:hover .tw-followCard-stopFollow {
   display: block;
+  filter: drop-shadow(0 1 4em red);
 }
 
 .tw-followCard-stopFollow {
   display: none;
+  
 }
